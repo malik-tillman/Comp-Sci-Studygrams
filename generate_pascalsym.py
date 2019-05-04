@@ -16,4 +16,4 @@ def pascal_sym(n):
     return matrix
 
 
-pprint(pascal_sym(10))
+pprint([[0] * 10 for _ in range(10)])
